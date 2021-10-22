@@ -1,33 +1,53 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+#00. Sample Exams With Author Solutions/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+#.gitignore
+
+#**/Demos/
+#*.pptx
+#*.zip
+*.7z
+*.rar
 
 ### IntelliJ IDEA ###
-.idea
+**/out/
+**/target/
+**/.idea/*
+!**/.idea/misc.xml
+!**/.idea/modules.xml
 *.iws
-*.iml
+#*.iml
 *.ipr
+*.class
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Prerequisites
+*.d
 
-### VS Code ###
-.vscode/
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
